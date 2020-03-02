@@ -1,7 +1,5 @@
 package linkedList;
 
-import com.sun.org.apache.bcel.internal.generic.D2F;
-import com.sun.org.apache.xerces.internal.util.SAXLocatorWrapper;
 import org.junit.Test;
 
 /**

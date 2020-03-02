@@ -8,6 +8,8 @@ public class PushTest {
     public static void main(String[] args) {
         System.out.println("PushTest...");
         System.out.println("Update Project test...");
-        System.out.println(UUID.randomUUID().toString().replace("-","").toUpperCase());
+        System.out.println(UUID.randomUUID().toString().replace("-", "").toUpperCase());
+        int a = (1 | 2);
+        System.out.println(a);
     }
 }
