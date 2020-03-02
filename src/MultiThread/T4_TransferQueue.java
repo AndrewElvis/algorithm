@@ -1,6 +1,5 @@
 package MultiThread;
 
-import javax.sound.midi.Soundbank;
 import java.util.concurrent.LinkedTransferQueue;
 import java.util.concurrent.TransferQueue;
 
