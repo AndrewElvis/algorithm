@@ -1,5 +1,3 @@
-package basic_class_03;
-
 public class Code_07_PrintMatrixSpiralOrder {
 
 	public static void spiralOrderPrint(int[][] matrix) {

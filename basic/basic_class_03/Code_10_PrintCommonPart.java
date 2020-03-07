@@ -1,5 +1,3 @@
-package basic_class_03;
-
 public class Code_10_PrintCommonPart {
 
 	public static class Node {

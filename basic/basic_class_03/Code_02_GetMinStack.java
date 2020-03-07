@@ -1,5 +1,3 @@
-package basic_class_03;
-
 import java.util.Stack;
 
 public class Code_02_GetMinStack {

@@ -1,5 +1,3 @@
-package basic_class_03;
-
 public class Code_15_ReverseList {
 
 	public static class Node {

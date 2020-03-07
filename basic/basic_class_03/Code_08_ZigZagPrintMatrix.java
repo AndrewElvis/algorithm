@@ -1,5 +1,3 @@
-package basic_class_03;
-
 public class Code_08_ZigZagPrintMatrix {
 
 	public static void printMatrixZigZag(int[][] matrix) {

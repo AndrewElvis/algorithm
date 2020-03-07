@@ -1,5 +1,3 @@
-package basic_class_03;
-
 public class Code_09_FindNumInSortedMatrix {
 
 	public static boolean isContains(int[][] matrix, int K) {

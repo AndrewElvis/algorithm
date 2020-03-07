@@ -1,5 +1,3 @@
-package basic_class_03;
-
 import java.util.HashMap;
 
 public class Code_06_RandomPool {
