@@ -2,6 +2,7 @@ package String;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.PriorityQueue;
 
 /**
  * @author AndrewElvis
@@ -33,5 +34,6 @@ public class StringJoint {
         System.out.println(lowestString(strs1));
         String[] strs2 = { "ba", "b"};
         System.out.println(lowestString(strs2));
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>((x, y) -> (y - x));
     }
 }
