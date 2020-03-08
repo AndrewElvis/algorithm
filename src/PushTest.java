@@ -1,3 +1,5 @@
+import javax.sound.midi.Soundbank;
+import java.math.BigInteger;
 import java.util.UUID;
 
 /**
@@ -6,10 +8,11 @@ import java.util.UUID;
  */
 public class PushTest {
     public static void main(String[] args) {
-        System.out.println("PushTest...");
-        System.out.println("Update Project test...");
-        System.out.println(UUID.randomUUID().toString().replace("-", "").toUpperCase());
-        int a = (1 | 2);
-        System.out.println(a);
+        System.out.println(factorial(BigInteger.valueOf(100)));
+    }
+
+    public static BigInteger factorial(BigInteger num) {
+        if (num == BigInteger.valueOf(1)) return BigInteger.valueOf(1);
+        return  num.multiply(factorial(BigInteger.valueOf(num.longValue()-1) ));
     }
 }

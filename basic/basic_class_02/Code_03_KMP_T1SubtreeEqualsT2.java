@@ -1,3 +1,4 @@
+package basic_class_02;
 
 public class Code_03_KMP_T1SubtreeEqualsT2 {
 
