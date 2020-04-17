@@ -11,7 +11,7 @@ public class PushTest {
     }
 
     public static BigInteger factorial(BigInteger num) {
-        if (num == BigInteger.valueOf(1)) return BigInteger.valueOf(1);
+        if (num.equals(BigInteger.valueOf(1))) return BigInteger.valueOf(1);
         return  num.multiply(factorial(BigInteger.valueOf(num.longValue()-1) ));
     }
 }
