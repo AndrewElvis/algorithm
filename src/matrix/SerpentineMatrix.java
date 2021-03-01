@@ -1,5 +1,8 @@
 package matrix;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @author AndrewElvis
  * @date 2020-03-15-16:41
@@ -34,6 +37,7 @@ public class SerpentineMatrix {
     }
 
     public static void main(String[] args) {
-        process(4,4);
+        process(3,4);
+        Queue<Integer> queue = new LinkedList<Integer>(){{add(1);}};
     }
 }

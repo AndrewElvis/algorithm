@@ -5,10 +5,10 @@ package linkedList;
  * @date 2020-03-15-17:48
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
-    ListNode(int x) {
+    public ListNode(int x) {
         val = x;
     }
 }
